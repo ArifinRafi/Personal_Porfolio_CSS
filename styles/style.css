@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #152238;
+    
+    color: white;
+    font-weight: 300;
+}
+nav ul:hover {
+    color: rgb(128, 121, 121);  
+}
+
+body{
+    background-color: #152238;
+}
+.dp{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 50%;
+}
+.dp-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}

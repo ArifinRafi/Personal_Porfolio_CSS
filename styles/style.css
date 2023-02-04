@@ -44,5 +44,79 @@ nav ul:hover {
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 0px;
+}
+.caption-description {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+
+
+
+/* CSS */
+.button-18 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #f3f3f5;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+  
+  line-height: 20px;
+  height: 50px;
+  width: 150px;
+  overflow: hidden;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  
+ 
+  
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+.social-media{
+    color: #f3f3f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+.social-media .fa-brands {
+    padding: 5px;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

@@ -161,9 +161,9 @@ nav ul:hover {
   text-align: center;
   cursor: pointer;
   transition: all 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  padding: 30px;
+  
   user-select: none;
   font-weight: bolder;
   margin: 20px;
@@ -185,5 +185,18 @@ nav ul:hover {
   margin-top: 10%;
   align-items: center;
 }
+
+.card-title{
+display: flex;
+justify-content: center;
+}
+
+.card-desc{
+  display: list-item;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 40px;
+}
+
   
  

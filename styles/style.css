@@ -24,6 +24,8 @@ nav ul:hover {
     width: 100%;
     background-repeat: no-repeat;
     
+    
+    
 }
 
 .dp{
@@ -120,3 +122,68 @@ nav ul:hover {
     align-items: center;
 
 }
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    color: #f4f7f7;
+    background-color: #586875;
+    font: 1rem/1 'Cabin', sans-serif;
+    overflow-x: hidden;
+  }
+
+
+
+  /*card css */
+
+  .card {
+  box-sizing: border-box;
+  width: 390px;
+  height: 454px;
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  font-weight: bolder;
+  margin: 20px;
+  color: black;
+}
+
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.card_view{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  align-items: center;
+}
+  
+ 

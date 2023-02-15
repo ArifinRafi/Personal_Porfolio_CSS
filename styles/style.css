@@ -141,8 +141,6 @@ nav ul:hover {
     height: 100%;
     color: #f4f7f7;
     background-color: #586875;
-    font: 1rem/1 'Cabin', sans-serif;
-    overflow-x: hidden;
   }
 
 
@@ -161,9 +159,7 @@ nav ul:hover {
   text-align: center;
   cursor: pointer;
   transition: all 0.5s;
-  
   padding: 30px;
-  
   user-select: none;
   font-weight: bolder;
   margin: 20px;
@@ -172,7 +168,7 @@ nav ul:hover {
 
 .card:hover {
   border: 1px solid black;
-  transform: scale(1.05);
+  transform: scale(1.2);
 }
 
 .card:active {

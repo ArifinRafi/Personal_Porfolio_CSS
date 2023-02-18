@@ -22,7 +22,7 @@
 
 .styled-table th,
 .styled-table td {
-    padding: 30px 200px;
+    padding: 30px 250px;
     border: #000000;
 }
 
@@ -38,3 +38,17 @@
     border-bottom: 2px solid #009879;
 }
 
+.background-img{
+    
+    background-image: linear-gradient(to bottom, rgba(78, 79, 82, 0.52), rgba(0, 0, 0, 0.73)),
+     url('../images/covernew.jpg');
+    background-size: cover;
+    height: 950px; 
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.row-back{
+    background-color: #dddddd;
+}

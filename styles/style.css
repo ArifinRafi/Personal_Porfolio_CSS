@@ -213,98 +213,53 @@ justify-content: center;
 }
 
 
+/*projects section css
+*/
 
-
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
-
-$base-spacing-unit: 24px;
-$half-spacing-unit: $base-spacing-unit / 2;
-
-$color-alpha: #1772FF;
-$color-form-highlight: #EEEEEE;
-
-*, *:before, *:after {
-	box-sizing:border-box;
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 1200px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-body {
-	padding:$base-spacing-unit;
-	font-family:'Source Sans Pro', sans-serif;
-	margin:0;
+.main-table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	margin:0;
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
 }
 
-.container {
-	max-width: 1000px;
-	margin-right:auto;
-	margin-left:auto;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	min-height:100vh;
+.styled-table th,
+.styled-table td {
+  padding: 30px 200px;
+  border: #000000;
 }
 
-.table {
-	width:100%;
-	border:1px solid $color-form-highlight;
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
 }
 
-.table-header {
-	display:flex;
-	width:100%;
-	background:#000;
-	padding:($half-spacing-unit * 1.5) 0;
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
 }
 
-.table-row {
-	display:flex;
-	width:100%;
-	padding:($half-spacing-unit * 1.5) 0;
-	
-	&:nth-of-type(odd) {
-		background:$color-form-highlight;
-	}
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
 }
 
-.table-data, .header__item {
-	flex: 1 1 20%;
-	text-align:center;
-}
 
-.header__item {
-	text-transform:uppercase;
-}
 
-.filter__link {
-	color:white;
-	text-decoration: none;
-	position:relative;
-	display:inline-block;
-	padding-left:$base-spacing-unit;
-	padding-right:$base-spacing-unit;
-	
-	&::after {
-		content:'';
-		position:absolute;
-		right:-($half-spacing-unit * 1.5);
-		color:white;
-		font-size:$half-spacing-unit;
-		top: 50%;
-		transform: translateY(-50%);
-	}
-	
-	&.desc::after {
-		content: '(desc)';
-	}
 
-	&.asc::after {
-		content: '(asc)';
-	}
-	
-}
+
 
   
  

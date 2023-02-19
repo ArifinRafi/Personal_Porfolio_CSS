@@ -10,6 +10,14 @@ nav {
 body{
   font-family: 'Merriweather', serif;
   font-family: 'Roboto Slab', serif;
+
+  background-image: linear-gradient(to bottom, rgba(59, 98, 176, 0.52), rgba(0, 0, 0, 0.73)),
+  url('../images/covernew.jpg');
+ background-size: cover;
+ height: 1200px; 
+ background-position: center;
+ width: 100%;
+ background-repeat: no-repeat; 
 }
 nav ul:hover {
     color: rgb(128, 121, 121);  
@@ -19,17 +27,6 @@ nav ul:hover {
     margin: 0px;
 }
 
-.background-img{
-    
-    background-image: linear-gradient(to bottom, rgba(59, 98, 176, 0.52), rgba(0, 0, 0, 0.73)),
-     url('../images/covernew.jpg');
-    background-size: cover;
-    height: 950px; 
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;   
-    
-}
 
 .dp{
     height: 250px;
@@ -262,8 +259,8 @@ justify-content: center;
 .footer-sec{
   display: flex;
   justify-content: center;
-  padding-top: 100px;
   opacity: 50%;
+  
 }
 
 

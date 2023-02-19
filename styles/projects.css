@@ -44,7 +44,7 @@
     background-image: linear-gradient(to bottom, rgba(59, 98, 176, 0.52), rgba(0, 0, 0, 0.73)),
      url('../images/covernew.jpg');
     background-size: cover;
-    height: 1200px; 
+    height: 1400px; 
     background-position: center;
     width: 100%;
     background-repeat: no-repeat;   
@@ -54,3 +54,20 @@
 .row-back{
     background-color: #dddddd;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.footer-sec{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    opacity: 70%;
+    color: #dddddd;
+  }

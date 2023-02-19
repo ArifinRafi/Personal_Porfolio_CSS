@@ -16,7 +16,7 @@
 }
 
 .styled-table thead tr {
-    background-color: #21a86d;
+    background-color: #3584a5;
     color: #ffffff;
     text-align: left;
 }
@@ -41,13 +41,14 @@
 
 .background-img{
     
-    background-image: linear-gradient(to bottom, rgba(78, 79, 82, 0.52), rgba(0, 0, 0, 0.73)),
+    background-image: linear-gradient(to bottom, rgba(59, 98, 176, 0.52), rgba(0, 0, 0, 0.73)),
      url('../images/covernew.jpg');
     background-size: cover;
-    height: 1300px; 
+    height: 1200px; 
     background-position: center;
     width: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
+    
 }
 
 .row-back{
